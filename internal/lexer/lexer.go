@@ -3,7 +3,12 @@ package lexer
 import (
 	"os" 
 	"fmt"
+	"regexp"
 )
+
+
+
+
 
 func Source(fileName string) {
 	bytes,ok := os.ReadFile(fileName)
